@@ -1,61 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="alert alert-primary" role="alert">
-        <ul>
-            <li>Emopresa</li>
-            <li>Mype</li>
-            <li>Contacto</li>
-      </div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/3.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </div>
-          </div>
+  <div id="menu">
+    <ul>
+      <li><a href="#">Personas</a></li>
+      <li><a href="#">PyMes</a></li>
+      <li><a href="#">Empresas</a></li>
+      <i class="fas fa-bell"></i>
+      <li class="item-r"><a href="#">Ayuda BCP</a></li>
+      <li class="item-r"><a href="#">Canales de atencion</a></li>
+    </ul>
+
+  </div>
+  <div id="menu2">
+    <ul>
+      <li><a href="#">Prestamo</a></li>
+      <li><a href="#">Trajetas</a></li>
+      <li><a href="#">Cuentas</a></li>
+      <li><a href="">Seguros</a></li>
+      <li><a href="#">Inversiones</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Beneficios</a></li>
+      <nav class="boton1">
+        <button type="button" onclick="window.open">Banca por internet</button>
+      </nav>
+      <nav class="boton2">
+        <button type="button" onclick="window.open">Abre tu cuenta</button>
+      </nav>
+    </ul>
+
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
       </div>
+      <div class="carousel-item">
+        <img src="img/2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <h2>Productos digitales para ti</h2>
+  <main>
+    <section class="portafolio">
+      <div class="contenedor">
+          <div class="galeria-port">
+              <div class="imagen-port">
+                  <img src="img/a.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img4/icono1.png" alt="">
+                      <p>Nuestro trabajo</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/b.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img4/icono1.png" alt="">
+                      <p>Nuestro trabajo</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/c.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img4/icono1.png" alt="">
+                      <p>Nuestro trabajo</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/d.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img4/icono1.png" alt="">
+                      <p>Nuestro trabajo</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                <img src="img/e.png" alt="">
+                <div class="hover-galeria">
+                    <img src="img4/icono1.png" alt="">
+                    <p>Nuestro trabajo</p>
+                </div>
+            </div>              
+              <div class="imagen-port">
+                  <img src="img/f.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img4/icono1.png" alt="">
+                      <p>Nuestro trabajo</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
+  </main>
+  
 
 
-
-
-
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/e9d2557f8a.js" crossorigin="anonymous"></script>
     <!--Platforma-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

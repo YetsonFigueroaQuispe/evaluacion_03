@@ -1,0 +1,144 @@
+#menu{
+    background-color: rgb(25, 6, 134);
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background-color: #1e1cb3;
+}
+.item-r{
+    float: right;
+}
+
+#menu2{
+    background-color: rgb(25, 6, 134);
+}
+#menu2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu2 ul li{
+    display: inline-block;
+}
+#menu2 ul li a{
+    color: white;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+#menu2 ul li a:hover{
+    background-color: #1e1cb3;
+}
+.item-r{
+    float: right;
+}
+#menu2 ul nav{
+    float: right;
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:20px;
+    width:80px;
+    height:19px;
+}
+.portafolio{
+    background: #ffffff;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(0, 131, 22, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+body h2{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
